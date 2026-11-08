@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avo - Workshop Nến Thơm</title>
+    <style>
+        .hinh-workshop {
+            display: flex;
+            gap: 15px;
+        }
+        .hinh-workshop img {
+            width: 30%;
+            height: 300px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Avo - Work shop nến thơm</h2>
+        <nav>
+            <a href="#gioi-thieu">Giới thiệu</a> |
+            <a href="#bang-gia">Bảng giá</a> |
+            <a href="#khoanh-khac">Khoảnh khắc</a> |
+            <a href="#dang-ky">Đăng ký</a>
+        </nav>
+    </header>
+    <main>
+        <section id="gioi-thieu">
+            <h2>Tự tay tạo nên mùi hương của riêng bạn</h2>
+            <p>
+                Avo là workshop dành cho những ai yêu thích sự thư giãn
+                và mong muốn tự tay tạo ra một chiếc nến thơm mang dấu ấn riêng.
+            </p>
+            <h3>Trải nghiệm tại workshop</h3>
+            <ul>
+                <li>Tìm hiểu về các loại sáp và tinh dầu.</li>
+                <li>Lựa chọn mùi hương phù hợp với sở thích.</li>
+                <li>Tự tay làm và mang về chiếc nến thơm của riêng mình.</li>
+            </ul>
+        </section>
+        <section id="bang-gia">
+            <h2>Bảng giá workshop</h2>
+            <table border="1">
+                <tr>
+                    <th>Gói workshop</th>
+                    <th>Trải nghiệm</th>
+                    <th>Bạn nhận được</th>
+                    <th>Giá</th>
+                </tr>
+                <tr>
+                    <td>Hương Khởi Đầu</td>
+                    <td>Làm 1 chiếc nến theo hướng dẫn với các mùi hương có sẵn.</td>
+                    <td>1 nến thơm 100g và hộp đựng sản phẩm.</td>
+                    <td>250.000đ</td>
+                </tr>
+                <tr>
+                    <td>Hương Của Riêng</td>
+                    <td>Tự chọn và phối các mùi hương để tạo nên mùi hương của riêng bạn.</td>
+                    <td>1 nến thơm 200g, hộp đựng và thẻ ghi tên mùi hương.</td>
+                    <td>350.000đ</td>
+                </tr>
+                <tr>
+                    <td>Hương Trọn Vẹn</td>
+                    <td>Tự phối mùi hương và trải nghiệm làm cả nến thơm và sáp thơm.</td>
+                    <td>1 nến thơm 200g, 1 sáp thơm và hộp quà.</td>
+                    <td>450.000đ</td>
+                </tr>
+            </table>
+        </section>
+        <section id="khoanh-khac">
+            <h2>Những khoảnh khắc tại Hương Nhóe</h2>
+            <div class="hinh-workshop">
+                <img src="nen1.png" alt="Nến thơm tại Hương Nhóe">
+                <img src="nen2.png" alt="Quá trình làm nến">
+                <img src="nen3.png" alt="Không gian workshop">
+            </div>
+            <p>
+                Một chút thời gian chậm lại, một chút hương thơm
+                và những khoảnh khắc sáng tạo tại Avo.
+            </p>
+        </section>
+        <form id="dang-ky">
+            <h2>Đăng ký tham gia workshop</h2>
+            <p>
+                <label for="hoTen">Họ và tên:</label><br>
+                <input type="text" id="hoTen" name="hoTen" required>
+            </p>
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+            <p>
+                <label for="soDienThoai">Số điện thoại:</label><br>
+                <input type="tel" id="soDienThoai" name="soDienThoai" required>
+            </p>
+            <p>
+                <label for="ngayThamGia">Ngày muốn tham gia:</label><br>
+                <input type="date" id="ngayThamGia" name="ngayThamGia">
+            </p>
+            <p>
+                Chọn khung giờ:<br>
+                <input type="radio" id="sang" name="thoiGian" value="Sáng">
+                <label for="sang">Buổi sáng</label>
+                <input type="radio" id="chieu" name="thoiGian" value="Chiều">
+                <label for="chieu">Buổi chiều</label>
+            </p>
+            <p>
+                <input type="checkbox" id="dongY" name="dongY">
+                <label for="dongY">
+                    Tôi muốn nhận thông tin về các workshop tiếp theo.
+                </label>
+            </p>
+            <input type="submit" value="Đăng ký">
+            <input type="reset" value="Nhập lại">
+        </form>
+    </main>
+    <footer>
+        <p>Để được hỗ trợ tư vấn bởi Avo quý khách vui lòng liện hệ qua</p>
+        <p>Email: AvoWorkShop@gmail.com | Hotline: 0123 456 789</p>
+        <nav>
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a> |
+            <a href="mailto:huongnhoe@gmail.com">Email</a>
+        </nav>
+        <p>&copy; 2026 Avo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
